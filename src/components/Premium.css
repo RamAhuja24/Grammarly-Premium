@@ -1,0 +1,51 @@
+.premiumDiv{
+    width: 100%;
+    text-align: center;
+  }
+  .premiumDiv > div{
+    width: 100%;
+    max-width: 630px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  #premiumComparison{
+    display: flex;
+    flex-wrap:wrap;
+    text-align: left;
+    color: #0E101A;
+    width: 100%;
+  }
+  #premiumComparison > div{
+    flex: 1 0 240px;
+    padding: 0 20px;
+    margin: 30px 0;
+  }
+  #premiumComparison > div > span{
+    color: #6D758D;
+    font-size: 11px;
+  }
+  #premiumComparison h5{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  #premiumComparison p{
+    font-size: 15px;
+    margin: 10px 0;
+    line-height:24px;
+  }
+  #premiumComparison button{
+    padding: 13px 0;
+    width:100%;
+  }
+  #premiumComparison ul{
+    padding: 0 0 0 25px;
+  }
+  #premiumComparison li{
+    list-style-image: url('https://static.grammarly.com/assets/files/3252614f5e974a46c75e9035de53011b/checkmark.svg');
+    font-size: 13px;
+    line-height: 22px;
+    border-bottom: 1px dotted #aaa;
+    width: fit-content;
+    margin-bottom:10px;
+  }

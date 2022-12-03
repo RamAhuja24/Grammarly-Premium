@@ -1,0 +1,13 @@
+.mainSectionDiv{
+    padding: 10px 5% 90px 5%;
+    background-position: -110px -80px;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 75px;
+  }
+  
+  .mainSectionDiv > div{
+    width: 100%;
+    max-width: 1052px;
+    margin: 0 auto;
+  }

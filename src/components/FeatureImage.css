@@ -1,0 +1,48 @@
+.hidden{
+    display: none !important;
+  }
+
+.addAnimate1{
+    animation: ani 0.5s 1 forwards;
+  }
+.addAnimate2{
+    animation: ani 1.5s  1 forwards;
+    animation: ani 
+}
+  
+@keyframes ani {
+    0% {
+      transform: translate(0px, 0px);
+      opacity: 0;
+    }
+    100% {
+      transform: translate(10px, 10px);
+      opacity: 1;
+    }
+}
+.featureImageDiv{
+    width: 100%;
+    position: relative;
+    padding: 0 20px;
+    transition: 1s all;
+    min-height: min(350px, 70vw);
+    margin-bottom: 0px;
+  }
+  .featureImageDiv > img{
+    box-shadow: 0 14px 55px rgb(109 117 141 / 20%);
+    width: 90%;
+    max-width: 400px;
+    border-radius: 10px;
+    transition: 0.5s all;
+  }
+  .featureImageDiv > img:nth-child(1){
+    position: relative;
+    top:0;
+    left:0;
+  }
+  .featureImageDiv > img:nth-child(2){
+    position: absolute;
+    top: min(40vw, 200px);
+    left: 15%;
+    width: 80%;
+  }
